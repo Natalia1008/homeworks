@@ -33,6 +33,14 @@
         background-color: rgb(238, 238, 184);
         text-align: center;
     }
+
+
+    .title_mainpart {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    }
     
     .liniya_1 {
         grid-column-start: 1;
