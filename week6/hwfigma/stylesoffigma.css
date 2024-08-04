@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+font-family: 'Inter', sans-serif;
+
+}
+
+header {
+    background-color: #4A2B33;
+}
+.headline {
+color: #D27487;
+}
+
+.menu {
+    text-decoration: none;
+    color: #D27487; 
+}
+
+.osn {
+margin: 40px;
+}
+
+.blok {
+    text-align: center;
+}
+
+.container_menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #E9E9E3;
+}
+
+.mm {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.nav_menu {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 42;
+
+}
+
+.menu_pic {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.nav {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.img_menu {
+    margin: 40px;
+}
+
+h3 {
+    color: #6F6F64;
+}
+
+p {
+    color: #6F6F64;
+}
+
+.bordo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #4A2B33;
+    text-align: center;
+}
+
+.bodro_one {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.bodro_two {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+}
+
+h2 {
+    color: #D27487;
+}
+
+.lorem {
+    color: #D27487;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.wine {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.food {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.viewofcafe {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.loc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #AA9E54;
+}
+
+.Location {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+}
+
+.Hours {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+}
+
+
+.Mondays{
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+}
