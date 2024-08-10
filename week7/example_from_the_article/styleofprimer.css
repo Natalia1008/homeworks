@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);
+}
+
+.one_block {
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.two_block {
+    background-color: rgba(248, 244, 9, 0.986);
+    padding: 5px;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.three_block {
+    background-color: rgb(10, 229, 236);
+    padding: 5px;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.four_block {
+    background-color: rgb(222, 171, 241);
+    padding: 5px;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.five_block {
+    background-color: rgb(32, 122, 92);
+    padding: 5px;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.six_block {
+    background-color: rgb(238, 138, 7);
+    padding: 5px;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
