@@ -1,0 +1,30 @@
+.main_first_part {
+width: 80%;
+}
+
+body main {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.conteiner-flex {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    }
+
+
+.container-flex-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
