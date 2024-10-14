@@ -1,8 +1,8 @@
 const word = 'JavaScript'
-function greet(word) {
+function printText(word) {
 return `Я учу, ${word}!`;
 }
-console.log(greet(word))
+console.log(printText(word))
 
 const img = document.getElementById('image-bear');
 console.log(img);
