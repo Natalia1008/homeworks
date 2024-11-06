@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: pink;
+}
+
+h1 {
+    color: rgb(0, 25, 248);
+}
+
+.еnter_date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: rgb(0, 1, 44);
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(135, 206, 222);
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

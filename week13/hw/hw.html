@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./hw.css"> 
+    <link rel="icon" href="./assets/img/calendar.png" type="image/x-icon">  
     <title>Дни до дня рождения</title>
 </head>
 <body>
-    <h1>Дни до дня рождения</h1>
-
-        <div>
+    <header class="header"><h1>Дни до дня рождения</h1>
+        <div class="еnter_date">
         <label for="bday">Введите дату вашего рождения:</label>
         <input type="date" id="bday" />
         </div>
-        <div>
+        <div class="btn">
             <button onclick="getDay()" id="getbday" type="button">Результат</button>
         </div>
-        <div id="result"></div>
-    
+        <div id="result" class="result"></div>
+        <div id="error" class="error"><p>Пожалуйста, введите дату рождения</p></div>
+    </header>
     <script src="./hw.js"></script>
 </body>
 </html>
