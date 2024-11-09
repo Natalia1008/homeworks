@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: pink;
+}
+
+h1 {
+    color: rgb(0, 25, 248);
+}
+
+h2 {
+    color: rgb(68, 2, 62);
+}
+
+#result {
+    color: rgb(0, 25, 248);
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+button {
+    background-color: aqua;
+    color: rgb(0, 25, 248);
+}
