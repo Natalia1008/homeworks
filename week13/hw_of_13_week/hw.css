@@ -26,4 +26,5 @@ h2 {
 button {
     background-color: aqua;
     color: rgb(0, 25, 248);
+    margin: 5px;
 }
